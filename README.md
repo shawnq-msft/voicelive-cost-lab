@@ -7,6 +7,10 @@ No backend, Azure connection configuration, credentials or private Foundry measu
 - 24 measured conversations: **one run per configuration, not a ten-run average**.
 - 24 separate smoke conversations; excluded from measurement statistics.
 - 48 timing-v2 stereo PCM WAV recordings: agent left, simulated user right.
+- Homepage playback and per-sample duration, response-turn, task-tool and simulator-control counts.
+- Interruptions are explicitly not tested (manual half-duplex, no VAD/barge-in).
+- Human realism checks stay in the reviewer's browser, not shared approvals.
+- Basic maps to the official Standard tier: gpt-realtime-mini native and gpt-4.1-mini cascade.
 - Historical list prices, compatible-model calculator, JSON/CSV downloads.
 - Provider identifiers are replaced and tool arguments omitted; token counts, costs and audio bytes are unchanged.
 - Completion is not task correctness. Audio is for human review, not a quality certification.
