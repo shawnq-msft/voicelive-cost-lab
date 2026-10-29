@@ -4,9 +4,9 @@ This repository contains only the generated read-only site and sanitized synthet
 No backend, Azure connection configuration, credentials or private Foundry measurements are included.
 
 - Six scenarios, English and Mandarin, native and standard voice paths.
-- 24 measured conversations: **one run per configuration, not a ten-run average**.
-- 24 separate smoke conversations; excluded from measurement statistics.
-- 48 timing-v2 stereo PCM WAV recordings: agent left, simulated user right.
+- 48 measured conversations: **one run per configuration, not a ten-run average**.
+- 48 separate smoke conversations; excluded from measurement statistics.
+- 96 timing-v2 stereo PCM WAV recordings: agent left, simulated user right.
 - Homepage playback and per-sample duration, response-turn, task-tool and simulator-control counts.
 - Interruptions are explicitly not tested (manual half-duplex, no VAD/barge-in).
 - Human realism checks stay in the reviewer's browser, not shared approvals.
