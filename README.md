@@ -9,7 +9,7 @@ No backend, Azure connection configuration, credentials or private Foundry measu
 - 96 timing-v2 stereo PCM WAV recordings: agent left, simulated user right.
 - Homepage playback and per-sample duration, response-turn, task-tool and simulator-control counts.
 - Interruptions are explicitly not tested (manual half-duplex, no VAD/barge-in).
-- Human realism checks stay in the reviewer's browser, not shared approvals.
+- Audio and statistics share one homepage column; no human-review controls or local approval storage.
 - Basic maps to the official Standard tier: gpt-realtime-mini native and gpt-4.1-mini cascade.
 - Historical list prices, compatible-model calculator, JSON/CSV downloads.
 - Provider identifiers are replaced and tool arguments omitted; token counts, costs and audio bytes are unchanged.
